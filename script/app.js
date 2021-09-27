@@ -7,9 +7,8 @@ let lugar = prompt("donde vive");
 mensaje = `tu nombre completo es ${nombre} ${apellido} y vivís en ${lugar}`
 alert(mensaje)
 
-*/
 
-// Desafío clase 2
+Desafío clase 2
 
 let edad = prompt("¿que edad tenés?")
 
@@ -20,3 +19,19 @@ if (edad > 40) {
 } else {
     alert("no podes hacerte el tatoo")
 }
+
+
+*/
+
+// Desafìo clase 3
+//Juego de dados
+let num1 = Number(prompt("ingresa número"))
+let num2 = Number(prompt("ingresa número"))
+
+do {
+    num1 - Math.floor(Math.random() * (7 - 1) + 1);
+    num2 - Math.floor(Math.random() * (7 - 1) + 1);
+    console.log(num1, num2)
+
+} while (num1 != 3 || num2 != 3)
+alert("pierde su turno")
