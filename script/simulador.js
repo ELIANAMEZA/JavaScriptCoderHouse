@@ -1,4 +1,4 @@
-//Desafío 4
+//Desafío 4 y complementario
 
 
 //Simulador de pago
@@ -13,7 +13,7 @@ const iva = x => x * 0.21;
 let precioProducto = 500;
 let precioDescuento = 50;
 let producto = prompt("que producto queres?");
-let cantidad = prompt("cuantos queres?");
+let cantidad = prompt("cuantos queres comprar?");
 
 //Calculo el precioProducto + IVA 
 let nuevoPrecio = suma(precioProducto, iva(precioProducto))
