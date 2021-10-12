@@ -28,6 +28,7 @@ const agregarProductos = () => {
     let producto = new Producto(nombre, categoria, precio, stock, disponible)
     listaMarroquineria.push(producto)
 }
+
 listaMarroquineria.sort((a, b) => {
     if (a.precio > b.precio) {
         return 1

@@ -21,7 +21,7 @@ if (edad > 40) {
 }
 
 
-*/
+
 
 // Desafìo clase 3
 //Juego de dados
@@ -35,3 +35,4 @@ do {
 
 } while (num1 != 3 || num2 != 3)
 alert("pierde su turno")
+*/
