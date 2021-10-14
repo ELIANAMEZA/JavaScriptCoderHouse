@@ -47,6 +47,8 @@ hijo.setAttribute("id", "elementoAgregado")
 hijo.textContent = "Elemento Nuevo"
 document.getElementById("aca").appendChild(hijo)
 console.log(hijo)
+    /*const padre = document.createElement("div")
+    document.getElementById("aca").appendChild(padre)*/
 
 class Producto {
     constructor(nombre, categoria, precio, stock, disponible) {
@@ -69,29 +71,31 @@ const guardarDatos = () => {
 
     })
 
-    const padre = document.createElement(div)
+    const padre = document.createElement("div");
 
-    const hijo = document.createElement(h2)
+    const hijo = document.createElement("h2");
     hijo.textContent = producto.nombre
     padre.appendchild(hijo)
 
-    const hijo1 = document.createElement(p)
+    const hijo1 = document.createElement("p");
     hijo1.textContent = producto.categoria
     padre.appendchild(hijo1)
 
-    const hijo2 = document.createElement(p)
+    const hijo2 = document.createElement("p");
     hijo2.textContent = producto.precio
     padre.appendchild(hijo2)
 
-    const hijo3 = document.createElement(p)
+    const hijo3 = document.createElement("p");
     hijo2.textContent = producto.stock
     padre.appendchild(hijo3)
 
-    const hijo4 = document.createElement(p)
+    const hijo4 = document.createElement("p");
     hijo2.textContent = producto.disponible
     padre.appendchild(hijo4)
 
-    document.getElementById("aca").appendChild(padre)
+    document.getElementById("aca").appendChild(div);
 
     return producto
+
+
 }
