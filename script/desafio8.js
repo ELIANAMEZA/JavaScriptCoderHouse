@@ -18,12 +18,14 @@ class Producto {
     }
 }
 const guardarDatos = () => {
+
     const producto = new Producto({
         nombre: document.getElementById("nombre").value,
         categoria: document.getElementById("categoria").value,
         precio: document.getElementById("precio").value,
         stock: document.getElementById("stock").value
     })
+
     const padre = document.createElement("div")
 
     const hijo = document.createElement("h2")
@@ -51,6 +53,6 @@ const guardarDatos = () => {
     return producto
 }
 
-document.getElementById("btn").addEventListener("click", () => {
+btn.addEventListener("click", () => {
     guardarDatos()
 })
