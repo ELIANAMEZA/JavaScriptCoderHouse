@@ -13,7 +13,7 @@ listaObjetos.forEach(element => {
     let home = listaObjetos.indexOf(element)
 
     imprimirDatos.innerHTML += `
-    <div class="card col-4" style="width: 18rem;">
+    <div class="" style="width: 18rem;">
     <div class="card-body">
         <h5 class="card-title">${element.nombre}</h5>
         <h6 class="card-subtitle mb-2 text-muted">${element.categoria}</h6>
