@@ -12,15 +12,13 @@ listaObjetos.forEach(element => {
     imprimirDatos.innerHTML += `
     <div class="card col-4" style="width: 18rem;">
     <div class="card-body">
-        <h5 class="card-title">${element.nombre}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">${element.categoria}</h6>
-        <p class="card-text">${element.precio}</p>
+        <h5 class="card-title text-black">${element.nombre}</h5>
+        <h6 class="card-subtitle mb-2 text-muted text-black">${element.categoria}</h6>
+        <p class="card-text text-black">${element.precio}</p>
     </div>
     </div>
     `
 });
-
-
 
 const finalizarCompra = () => {
 

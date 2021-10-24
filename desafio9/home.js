@@ -24,8 +24,6 @@ listaObjetos.forEach(element => {
     `
 });
 
-
-
 const comprar = (home) => {
 
     let carrito;
@@ -34,7 +32,6 @@ const comprar = (home) => {
     } else {
         carrito = JSON.parse(localStorage.getItem("carrito"))
     }
-
 
     carrito.push(listaObjetos[home])
     localStorage.setItem("carrito", JSON.stringify(carrito))
