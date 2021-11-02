@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+}
+
+#cuadrado1 {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    display: none;
+}
+
+#cuadrado2 {
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+}
+
+#cuadrado3 {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+}
