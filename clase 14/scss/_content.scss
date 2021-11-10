@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(90deg, rgba(235, 232, 232, 0.9) 80%, rgba(191, 189, 189, 1) 100%, rgba(150, 150, 149, 1) 100%);
+}
+
+p {
+    font-weight: 200 !important;
+}
+
+@media only screen and (min-width: 768px) {
+    p {
+        font-weight: 750;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    p {
+        font-weight: 550;
+    }
+}
+
+main {
+    background-image: url(../Img/nudo.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        text-shadow: 2px 2px 2px white;
+    }
+    blockquote {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.slide-in-left {
+    animation: slide-in-left 1s ease-in-out both;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide-right {
+    animation: slide-in-right 1s ease-in-out both;
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.scale:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.mainContact {
+    background-image: url(../Img/nudo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

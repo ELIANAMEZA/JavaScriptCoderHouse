@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error-404</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="description" content="Error 404">
+    <meta name="author" content="Eliana Meza">
+</head>
+
+<body>
+    <main>
+        <h1 class="text-center">Error 404, página no encontrada</h1>
+
+        <p class="text-center">Esta página no se encuentra, pues todas las clientas compraron todos los productos y nos quedamos sin carteras.</p>
+        <p class="text-center">Volver a la página principal: <a href="index.html"> Ilay Bags</a>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- const getData = async() => {
+
+    await fetch("../datos.json")
+        .then((response) => response.json())
+        .then((data) => localStorage.setItem("productos", data))
+
+}
+
+const comprar = (producto) => {
+    let carrito = [];
+    if (localStorage.getItem("carrito") == null) {
+        carrito.push(producto);
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+    } else {
+        carrito = JSON.parse(localStorage.getItem("carrito"));
+        carrito.push(producto);
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+    }
+};
+document.addEventListener("DOMContentLoaded", () => {
+    getData()
+    setTimeout(() => {
+        data.map((e) => {
+            divRow.innerHTML += `<div class="card col-3" style="width: 18rem;">
+            <img src=${e.img} class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" id="nombre">${e.nombre}</h5>
+              <h5 class="card-title" id="precio">${e.precio}$</h5>
+              <p class="card-text" id="categoria">${e.categoria}</p>
+              <button class="card-link" id="compra" onclick="comprar()">Comprar</button>
+              
+            </div>
+          </div>
+            `
+        })
+
+    }, 1000);
+}) -->

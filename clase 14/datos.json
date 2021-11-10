@@ -1,0 +1,19 @@
+[{
+        "nombre": "Helena",
+        "precio": "4000",
+        "categoria": "cartera",
+        "img": "Img/helena.jpg"
+    },
+    {
+        "nombre": "Atenea",
+        "precio": "4000",
+        "categoria": "cartera",
+        "img": "Img/atenea.jpg"
+    },
+    {
+        "nombre": "Petra",
+        "precio": "4000",
+        "categoria": "cartera",
+        "img": "Img/petra.jpg"
+    }
+]
